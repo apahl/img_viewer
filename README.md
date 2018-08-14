@@ -18,3 +18,5 @@ With `go get`:
 Cross-compilation on Linux to Windows, using go1.10.3, has been successful with:
 
     GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ go build -ldflags "-H windowsgui" -o ImgViewer.exe
+
+Or download a binary from the [releases](https://github.com/apahl/img_viewer/releases) page.
