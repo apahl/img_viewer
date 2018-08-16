@@ -1,5 +1,5 @@
 #!/bin/bash
-# 45575/170207-CellPainting-176cpds-10-20_A01_s5_w5B56A82A6-670D-4E30-8602-CB322F996ADB.tif
+
 set -e
 
 SRC_DIR=${1%/}

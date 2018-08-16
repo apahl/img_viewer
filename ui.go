@@ -99,7 +99,7 @@ var indexHTML = `
     Base Path:
     <input id="basepath" type="text" value="" size=80 />
     <button onclick="external.invoke('config:')">
-        Open last set of plates
+        Open previous set of plates
     </button>
     <br> Slot 1:
     <input id="plate-id1" type="text" value="" />
