@@ -275,8 +275,6 @@ var indexHTML = `
     <input id="autoload" type="checkbox" name="autoload"> autoload
     <br>
     <br>
-    <br>
-    <br>
     <table>
         <tr>
             <th>Slot</th>
