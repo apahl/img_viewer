@@ -21,7 +21,7 @@ import (
 )
 
 const (
-	version      = "0.2.0"
+	version      = "0.2.1"
 	windowWidth  = 1200
 	windowHeight = 600
 )
@@ -76,11 +76,11 @@ func next(well string, offset int) string {
 		return result
 	}
 	rowNum := well[0] - 64
-	if rowNum < 1 || rowNum > 24 {
+	if rowNum < 1 || rowNum > 16 {
 		return result
 	}
 	colNum, err := strconv.Atoi(well[1:])
-	if err != nil {
+	if err != nil || colNum < 1 || colNum > 24 {
 		return result
 	}
 	colNum += offset
