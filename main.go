@@ -64,8 +64,7 @@ func loadConfig(w webview.WebView) {
 // writeUI writes the UI to disk and returns the full file name
 func writeUI() string {
 	uiFn := filepath.ToSlash(os.TempDir() + "/plate_viewer_ui.html")
-	bytes := []byte(indexHTML)
-	err := ioutil.WriteFile(uiFn, bytes, 0644)
+	err := ioutil.WriteFile(uiFn, indexHTML, 0644)
 	utls.QuitOnError(err)
 	return uiFn
 }

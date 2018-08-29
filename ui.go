@@ -1,6 +1,6 @@
 package main
 
-var indexHTML = `
+var indexHTML = []byte(`
 <!doctype html>
 <html>
 
@@ -372,4 +372,4 @@ var indexHTML = `
     </p>
 </body>
 
-</html>`
+</html>`)
